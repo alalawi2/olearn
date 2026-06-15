@@ -2,7 +2,7 @@
 
 An interactive bilingual (Arabic/English) platform that transforms open education data from the [National Open Data Portal](https://opendata.gov.om) into analytical dashboards for understanding the distribution of schools, university enrollment trends, graduate output, and workforce Omanization across the Sultanate of Oman.
 
-**Live Demo:** [olearn.vercel.app](https://olearn.vercel.app)
+**Live Demo:** [olearn-sandy.vercel.app](https://olearn-sandy.vercel.app)
 
 ## Datasets Used from the National Open Data Portal
 
