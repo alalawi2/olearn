@@ -5,68 +5,103 @@ import { ExternalLink, Shield, Code, Users } from "lucide-react";
 
 const dataProvenance = [
   {
-    feature: "SQU Undergraduate Enrollment (2000-2026)",
-    featureAr: "التحاق الطلاب الجامعيين",
-    dataset: "Growth of Undergraduate",
+    feature: "Schools Directory (1,270 schools)",
+    featureAr: "دليل المدارس (١,٢٧٠ مدرسة)",
+    dataset: "All student data in the Ministry of Education for 2024",
+    publisher: "Ministry of Education",
+    publisherAr: "وزارة التربية والتعليم",
+    portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/09e6018f-d48f-44b0-8090-2b0d478774b9",
+  },
+  {
+    feature: "Teaching staff ratios by governorate",
+    featureAr: "نسب الهيئة التدريسية حسب المحافظة",
+    dataset: "Teaching staff data for 2024",
+    publisher: "Ministry of Education",
+    publisherAr: "وزارة التربية والتعليم",
+    portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/09e6018f-d48f-44b0-8090-2b0d478774b9",
+  },
+  {
+    feature: "SQU Undergraduate Enrollment (2000–2025)",
+    featureAr: "التحاق الطلاب الجامعيين في جامعة السلطان قابوس",
+    dataset: "Growth of undergraduate admitted, registered & graduated students according to category and gender (2000/2001 to 2024/2025)",
     publisher: "Sultan Qaboos University (SQU)",
     publisherAr: "جامعة السلطان قابوس",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/eb196b14-3f48-41bb-8279-de60a2a4907b",
   },
   {
-    feature: "SQU Students by College (2025)",
-    featureAr: "الطلاب حسب الكلية",
-    dataset: "Admitted Registered Graduated",
+    feature: "SQU Research Projects",
+    featureAr: "المشاريع البحثية",
+    dataset: "Growth in number of research projects by various types of grants",
     publisher: "Sultan Qaboos University (SQU)",
     publisherAr: "جامعة السلطان قابوس",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/eb196b14-3f48-41bb-8279-de60a2a4907b",
   },
   {
-    feature: "SQU Employees (2021-2025)",
-    featureAr: "موظفو الجامعة",
-    dataset: "# employees at the university",
-    publisher: "Sultan Qaboos University (SQU)",
-    publisherAr: "جامعة السلطان قابوس",
-    portal: "opendata.gov.om",
-  },
-  {
-    feature: "SQU Research Papers (2021-2025)",
+    feature: "SQU Research Papers (2021–2025)",
     featureAr: "الأوراق البحثية",
-    dataset: "SQU Research Publications",
+    dataset: "Growth in number of research papers published in journals and presented in conferences",
     publisher: "Sultan Qaboos University (SQU)",
     publisherAr: "جامعة السلطان قابوس",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/eb196b14-3f48-41bb-8279-de60a2a4907b",
+  },
+  {
+    feature: "SQU Employees & Omanization (2021–2025)",
+    featureAr: "موظفو الجامعة ونسب التعمين",
+    dataset: "Growth of number of employees at the university according to employer and nationality",
+    publisher: "Sultan Qaboos University (SQU)",
+    publisherAr: "جامعة السلطان قابوس",
+    portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/eb196b14-3f48-41bb-8279-de60a2a4907b",
   },
   {
     feature: "SQU Scholarships",
     featureAr: "البعثات الدراسية",
-    dataset: "SQU Scholarships by College",
+    dataset: "Scholarships by college and degree type",
     publisher: "Sultan Qaboos University (SQU)",
     publisherAr: "جامعة السلطان قابوس",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/eb196b14-3f48-41bb-8279-de60a2a4907b",
   },
   {
-    feature: "UTAS Graduates by Branch (2024-25)",
+    feature: "UTAS Active Students by Branch",
+    featureAr: "الطلاب النشطون حسب الفرع",
+    dataset: "Statistics of active students at UTAS by specialization, branch, academic year, and gender",
+    publisher: "University of Technology & Applied Sciences (UTAS)",
+    publisherAr: "جامعة التقنية والعلوم التطبيقية",
+    portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/402b311b-178a-40e1-85b0-dc1beb003ae0",
+  },
+  {
+    feature: "UTAS Graduates by Branch (2024–2025)",
     featureAr: "خريجو التقنية حسب الفرع",
-    dataset: "UTAS Graduates 2024-2025",
+    dataset: "UTAS graduates by branch (2024–2025)",
     publisher: "University of Technology & Applied Sciences (UTAS)",
     publisherAr: "جامعة التقنية والعلوم التطبيقية",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/402b311b-178a-40e1-85b0-dc1beb003ae0",
   },
   {
-    feature: "UTAS HR by Branch (2025-26)",
-    featureAr: "الموارد البشرية حسب الفرع",
-    dataset: "UTAS HR 2025-2026",
+    feature: "UTAS HR & Omanization (2025–2026)",
+    featureAr: "الموارد البشرية ونسب التعمين",
+    dataset: "HR statistics (2025–2026)",
     publisher: "University of Technology & Applied Sciences (UTAS)",
     publisherAr: "جامعة التقنية والعلوم التطبيقية",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/402b311b-178a-40e1-85b0-dc1beb003ae0",
   },
   {
-    feature: "Schools Directory (1,270 schools)",
-    featureAr: "دليل المدارس",
-    dataset: "Schools by Governorate (شعب حسب المدرسة)",
-    publisher: "Ministry of Education (MOE)",
-    publisherAr: "وزارة التربية والتعليم",
+    feature: "National HE Enrollment Overview (2025/2026)",
+    featureAr: "نظرة شاملة على الالتحاق بالتعليم العالي",
+    dataset: "Undergraduate & postgraduate students admitted, registered & graduated in scientific and humanities colleges (2025/2026)",
+    publisher: "Ministry of Higher Education, Research & Innovation",
+    publisherAr: "وزارة التعليم العالي والبحث العلمي والابتكار",
     portal: "opendata.gov.om",
+    publisherUrl: "https://opendata.gov.om/en/publishers/5c648ffa-eeac-466b-8481-520158bf96bb",
   },
 ];
 
@@ -173,7 +208,14 @@ export default function AboutPage() {
                   </td>
                   <td className="py-3 px-3 text-gray-600 dark:text-gray-400">{row.dataset}</td>
                   <td className="py-3 px-3">
-                    <p className="text-gray-600 dark:text-gray-400">{row.publisher}</p>
+                    <a
+                      href={row.publisherUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-indigo-600 hover:underline"
+                    >
+                      {row.publisher}
+                    </a>
                     <p className="text-xs text-gray-400" dir="rtl">{row.publisherAr}</p>
                   </td>
                   <td className="py-3 px-3">
